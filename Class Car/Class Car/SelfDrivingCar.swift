@@ -14,5 +14,9 @@ class SelfDrivingCar : Car {
         destination = yourDestination
         super.init(cartype: chosenCarType)
     }
+    override func drive() {
+        super.drive()
+        print("drive towards "+destination)
+    }
     
 }
