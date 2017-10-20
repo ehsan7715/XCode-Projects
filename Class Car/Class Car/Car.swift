@@ -25,5 +25,8 @@ class Car {
         self.init(cartype: cartype)
         colour = chosenColour
     }
+    func drive(){
+        print("car is moving")
+    }
     
 }
