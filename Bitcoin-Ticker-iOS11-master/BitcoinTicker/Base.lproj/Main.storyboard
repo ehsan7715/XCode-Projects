@@ -86,7 +86,8 @@
                     </view>
                     <connections>
                         <outlet property="bitcoinPriceLabel" destination="Jg7-Dt-rnc" id="LGh-mP-7xe"/>
-                        <outlet property="currencyPicker" destination="ZGz-pe-AwG" id="MaK-nO-flZ"/>
+                        <outlet property="currencyLabel" destination="Jg7-Dt-rnc" id="LM3-eF-QRT"/>
+                        <outlet property="currencyPickerView" destination="ZGz-pe-AwG" id="X0a-Z8-lJ9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

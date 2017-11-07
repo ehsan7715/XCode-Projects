@@ -29,6 +29,9 @@ class ViewController: UIViewController {
     //TODO: Place your 3 UIPickerView delegate methods here
     
     
+    @IBOutlet weak var currencyPickerView: UIPickerView!
+    @IBOutlet weak var currencyLabel: UILabel!
+    
     
 
     
