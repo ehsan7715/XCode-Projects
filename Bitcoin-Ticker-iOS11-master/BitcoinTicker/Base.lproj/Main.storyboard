@@ -34,6 +34,9 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="216" id="ejO-o3-Ore"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="H4g-qN-MbT" id="aFL-ah-YYo"/>
+                                        </connections>
                                     </pickerView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jg7-Dt-rnc">
                                         <rect key="frame" x="8" y="170" width="359" height="110"/>
@@ -87,6 +90,7 @@
                     <connections>
                         <outlet property="bitcoinPriceLabel" destination="Jg7-Dt-rnc" id="LGh-mP-7xe"/>
                         <outlet property="currencyLabel" destination="Jg7-Dt-rnc" id="LM3-eF-QRT"/>
+                        <outlet property="currencyPicker" destination="ZGz-pe-AwG" id="dOn-EV-Hdv"/>
                         <outlet property="currencyPickerView" destination="ZGz-pe-AwG" id="X0a-Z8-lJ9"/>
                     </connections>
                 </viewController>
